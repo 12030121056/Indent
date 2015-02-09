@@ -12,11 +12,6 @@ public class FeedbackActivity extends Activity {
 		setContentView(R.layout.activity_feedback);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.feedback, menu);
-		return true;
-	}
+	
 
 }

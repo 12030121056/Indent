@@ -17,15 +17,6 @@
         android:layout_marginTop="58dp"
         android:ems="10" />
 
-    <EditText
-        android:id="@+id/pwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/id"
-        android:layout_below="@+id/id"
-        android:layout_marginTop="72dp"
-        android:ems="10" />
-
     <Button
         android:id="@+id/logon"
         android:layout_width="wrap_content"
@@ -34,5 +25,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="67dp"
         android:text="logon" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user"
+        android:layout_below="@+id/user"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>

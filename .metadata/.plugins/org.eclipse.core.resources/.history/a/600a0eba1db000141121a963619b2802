@@ -31,7 +31,7 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="48dp"
-        android:text="Contact No" />
+        android:text="<Contact No>" />
 
     <TextView
         android:id="@+id/textView4"

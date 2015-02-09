@@ -28,12 +28,12 @@ private Button logon;
 			
 				Intent i= new Intent(getApplicationContext(),DetailsActivity.class);
 				Bundle b =new Bundle();
-				b.putString("u",user.getText().toString());
+				b.putString("us",user.getText().toString());
 				i.putExtras(b);
 				startActivity(i);
 			}
 		};
-		logon.setOnClickListener(listener); 
+		 
 	
 	
 	}
